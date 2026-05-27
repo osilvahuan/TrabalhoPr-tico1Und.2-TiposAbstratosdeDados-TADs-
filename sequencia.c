@@ -43,7 +43,7 @@ int get(Sequencia *s, int pos) {
 }
 
 void print(Sequencia *s) {
-    printf("Sequência: ");
+    printf("SEQUENCIA: ");
     for (int i = 0; i < s->quantidade; i++) {
         printf("%d ", s->dados[i]);
     }
